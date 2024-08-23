@@ -1,8 +1,11 @@
 # windows-renamer
+This script can run on any computer, not just Windows (in fact, running it on Windows would be pointless because the point is to format files *for* Windows).
+
 WARNING! 
+Please read this entire README before using. It isn't very long.
 I hope you have a backup of whatever you are acting on, because this renames and edits all of the files in a folder. 
 Use at your own risk! Running in a root folder is an especially bad idea.
-Please read this entire README before using. It isn't very long.
+
 
 NOTE:
 In addition to the special characters, Windows also has problems with long file paths. You can fix that by:
@@ -35,7 +38,7 @@ Create the script on your computer.
 Run the following line:
 python <folder containing the script>/rename_everything_for_windows.py <folder to act on> fix 
 
-To (attempt to) undo, run:
+To (attempt to) undo the changes (it will work unless you have one of the strings like "[pip]" as a substring in a filename to begin with), run:
 python <folder containing the script>/rename_everything_for_windows.py <folder to act on> unfix 
 
 
