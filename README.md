@@ -38,6 +38,10 @@ python <folder containing the script>/rename_everything_for_windows.py <folder t
 To (attempt to) undo, run:
 python <folder containing the script>/rename_everything_for_windows.py <folder to act on> unfix 
 
+
+If you want to know what was changed, the '\[...\]' and '\[..\]' regular expressions can be handy.
+
+
 To do a "dry run", which shows you what it would do without doing it, use the --dry-run flag:
 python <folder containing the script>/rename_everything_for_windows.py <folder to act on> fix --dry-run
 
